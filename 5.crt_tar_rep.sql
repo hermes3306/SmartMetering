@@ -1,50 +1,50 @@
-drop replication   rep2AB01;
-drop replication   rep2AB02;
-drop replication   rep2AB03;
-drop replication   rep2AB04;
-drop replication   rep2AB05;
-drop replication   rep2AB06;
-drop replication   rep2AB07;
-drop replication   rep2AB08;
-drop replication   rep2AB09;
-drop replication   rep2AB10;
+drop replication   rep1;
+drop replication   rep2;
+drop replication   rep3;
+drop replication   rep4;
+drop replication   rep5;
+drop replication   rep6;
+drop replication   rep7;
+drop replication   rep8;
+drop replication   rep9;
+drop replication   rep10;
 
-create replication rep2AB01
+create replication rep1
 with '192.168.99.11', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB02
+create replication rep2
 with '192.168.99.12', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB03
+create replication rep3
 with '192.168.99.13', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB04
+create replication rep4
 with '192.168.99.14', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB05
+create replication rep5
 with '192.168.99.15', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB06
+create replication rep6
 with '192.168.99.16', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB07
+create replication rep7
 with '192.168.99.17', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB08
+create replication rep8
 with '192.168.99.18', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB09
+create replication rep9
 with '192.168.99.19', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
 
-create replication rep2AB10
+create replication rep10
 with '192.168.99.20', 20400
-from smssuser.tbl_sm_data to smssuser.tbl_sm_date;
+from smssuser.tbl_sm_data to smssuser.tbl_sm_data;
