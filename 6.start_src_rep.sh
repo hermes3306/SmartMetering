@@ -1,0 +1,10 @@
+isql -u sys -p manager -s AB01 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB02 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB03 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB04 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB05 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB06 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB07 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB08 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB09 < 6.start_src_rep.sql 
+isql -u sys -p manager -s AB10 < 6.start_src_rep.sql 

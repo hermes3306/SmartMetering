@@ -1,0 +1,10 @@
+isql -u sys -p manager -s AB01 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB02 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB03 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB04 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB05 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB06 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB07 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB08 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB09 < 4.crt_src_rep.sql
+isql -u sys -p manager -s AB10 < 4.crt_src_rep.sql
